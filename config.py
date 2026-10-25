@@ -39,8 +39,8 @@ GIT_TOKEN = getenv("GIT_TOKEN")
 # Get API Key from @SHRUTIAPIBOT
 
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL",
-    "https://t.me/foreveerrrrr07"
+    "SUPPORT_GROUP",
+    "https://t.me/+C2Rm814XJQs0NDVl"
 )
 
 SUPPORT_CHAT = getenv(
