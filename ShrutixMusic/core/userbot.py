@@ -9,35 +9,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="ShrutiXAss1",
+            name="pallaavisarkkar_bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="ShrutiXAss2",
+            name="pallaavisarkkar_bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="ShrutiXAss3",
+            name="pallaavisarkkar_bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="ShrutiXAss4",
+            name="pallaavisarkkar_bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="ShrutiXAss5",
+            name="pallaavisarkkar_bot",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -60,7 +60,7 @@ class Userbot(Client):
                 
                 # Try to join support chats
                 try:
-                    await self.one.join_chat("ShrutiBots")
+                    await self.one.join_chat("")
                     await self.one.join_chat("ShrutiSupportChat")
                     LOGGER(__name__).info("Assistant 1 joined support chats")
                 except Exception as e:
