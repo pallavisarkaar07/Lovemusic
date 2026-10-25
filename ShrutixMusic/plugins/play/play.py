@@ -566,7 +566,7 @@ async def _play_music_flow(
     return
 
 
-@nand.on_callback_query(filters.regex("ShrutimousAdmin") & ~BANNED_USERS)
+@nand.on_callback_query(filters.regex("RPShyariwold") & ~BANNED_USERS)
 async def Shrutimous_check(client, CallbackQuery):
     try:
         await CallbackQuery.answer(
@@ -577,7 +577,7 @@ async def Shrutimous_check(client, CallbackQuery):
         pass
 
 
-@nand.on_callback_query(filters.regex("ShrutiPlaylists") & ~BANNED_USERS)
+@nand.on_callback_query(filters.regex("RPShyariwold") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
