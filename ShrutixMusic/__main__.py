@@ -65,7 +65,7 @@ async def init():
     await idle()
     await nand.stop()
     await userbot.stop()
-    LOGGER("ShrutixMusic").info("Stopping ShrutixMusic Music Bot...")
+    LOGGER("ShrutixMusic").info("Stopping ᴘᴀʟʟᴀᴠɪ Music ...")
 
 
 if __name__ == "__main__":
