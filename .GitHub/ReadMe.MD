@@ -1,13 +1,4 @@
-<h1 align="center">ShrutixMusic</h1>
 
-<p align="center">
-  <strong>Music for Telegram voice chats.</strong><br>
-  Audio and video playback with rich controls, queue management and assistant accounts.
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/NoxxOP/ShrutixMusic/main/ShrutixMusic/assets/ShrutixMusic.png" alt="ShrutixMusic" width="220">
-</p>
 
 <p align="center">
   <a href="https://heroku.com/deploy?template=https://github.com/pallavisarkaar07/Lovemusic">
